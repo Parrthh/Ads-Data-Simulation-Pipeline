@@ -37,6 +37,7 @@ def generate_event():
     }
 
 # Generate and save dataset
+# Here, n is the default value if we don't provide a specifc number of events to generate.
 def generate_data(n=1000):
     data = [generate_event() for _ in range(n)]
     df = pd.DataFrame(data)
