@@ -52,3 +52,5 @@ def generate_data(n=1000):
 
 if __name__ == '__main__':
     generate_data(10000)
+
+
